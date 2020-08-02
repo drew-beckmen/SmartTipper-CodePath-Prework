@@ -15,6 +15,7 @@
 		4A9A6ACF24D7508400043E88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A9A6ACD24D7508400043E88 /* LaunchScreen.storyboard */; };
 		4A9A6ADA24D7508400043E88 /* SmartTipperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A6AD924D7508400043E88 /* SmartTipperTests.swift */; };
 		4A9A6AE524D7508400043E88 /* SmartTipperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A6AE424D7508400043E88 /* SmartTipperUITests.swift */; };
+		4A9A6AF524D76AB600043E88 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A6AF424D76AB600043E88 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4A9A6AE024D7508400043E88 /* SmartTipperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartTipperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A9A6AE424D7508400043E88 /* SmartTipperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartTipperUITests.swift; sourceTree = "<group>"; };
 		4A9A6AE624D7508400043E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A9A6AF424D76AB600043E88 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				4A9A6AC424D7508100043E88 /* SceneDelegate.swift */,
 				4A9A6AC624D7508100043E88 /* ViewController.swift */,
 				4A9A6AC824D7508100043E88 /* Main.storyboard */,
+				4A9A6AF424D76AB600043E88 /* SettingsViewController.swift */,
 				4A9A6ACB24D7508400043E88 /* Assets.xcassets */,
 				4A9A6ACD24D7508400043E88 /* LaunchScreen.storyboard */,
 				4A9A6AD024D7508400043E88 /* Info.plist */,
@@ -262,6 +265,7 @@
 				4A9A6AC724D7508100043E88 /* ViewController.swift in Sources */,
 				4A9A6AC324D7508100043E88 /* AppDelegate.swift in Sources */,
 				4A9A6AC524D7508100043E88 /* SceneDelegate.swift in Sources */,
+				4A9A6AF524D76AB600043E88 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
