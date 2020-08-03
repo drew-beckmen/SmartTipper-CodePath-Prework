@@ -23,12 +23,8 @@ class SettingsViewController: UIViewController {
         let defaults = UserDefaults.standard
         let isRounding = defaults.bool(forKey: "roundUp")
         let darkMode = defaults.bool(forKey: "darkMode")
-        if isRounding {
-            roundSwitch.isOn = true
-        }
-        else {
-            roundSwitch.isOn = false
-        }
+
+        roundSwitch.isOn = isRounding
         
         if darkMode {
             overrideUserInterfaceStyle = .dark
