@@ -1,43 +1,48 @@
-# Pre-work - *Name of App Here*
+# Pre-work - Smart Tipper
 
-**Name of your app** is a tip calculator application for iOS.
+**Smart Tipper** is a tip calculator application for iOS.
 
-Submitted by: **Your Name Here**
+Submitted by: **Drew Beckmen**
 
-Time spent: **X** hours spent in total
+Time spent: **4.5** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is complete:
 
-* [ ] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 
 The following **optional** features are implemented:
-* [ ] Settings page to change the default tip percentage.
+* [x] Settings page to change the default tip percentage.
 * [ ] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [x] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] Dark Mode
+- [x] Rounding Total to Nearest Dollar 
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/EQH8whk' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Although I have experience in developing web applications with JavaScript, this was my first attempt at creating an iOS app, and it felt quite foreign. At first I was very lost, but I slowly became more comfortable as I had more time to explore Xcode. Once I figured out Swift's was of handing events/changes, I felt more capable of implmenting features that I want to see. One feature I added in particular was the ability to increase the tip so that the total rounded up to the nearest dollar. As someone who likes to have  $_.00 at the end of every check, this feature felt relevant for me. It also allowed me to further explore control flow statements in Swift and the UserDefaults feature. 
+
+I am also an avid user of dark mode on all my devices, so the dark mode feature was another priority. I enjoyed building the settings page as it gave me a better sense of how I could create a state for my application across views and controllers. 
+
+I also had trouble remembering that each element like a label or segment controller is considered a separate view. In the web development I have learned, the views are entire HTML pages while controllers handle HTTP requests from the server. I had to shift my frame of mind when working with Swift to develop this iOS. 
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2020] [Drew Beckmen]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
